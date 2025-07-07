@@ -1,0 +1,160 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d5774a43-362b-468f-ac2a-6162669f6089")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 166.37 78.74)
+		(size 35.56 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8cd05508-705c-4bc3-b7b9-e9bf1b7bebb7")
+		(property "Sheetname" "leds"
+			(at 166.37 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 166.37 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D1_DI" input
+			(at 166.37 91.44 180)
+			(uuid "254f0a35-2419-47fc-a292-9c7d0fafb66d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D256_DO" output
+			(at 201.93 91.44 0)
+			(uuid "b9d47f4a-ee6e-4342-8bc3-bc8153afa6af")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "led_matrix"
+				(path "/d5774a43-362b-468f-ac2a-6162669f6089"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 78.74)
+		(size 35.56 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "934e71f7-5044-4f55-8eed-c70876f5bea8")
+		(property "Sheetname" "MCU"
+			(at 73.66 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 73.66 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "led_matrix"
+				(path "/d5774a43-362b-468f-ac2a-6162669f6089"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 78.74)
+		(size 35.56 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b6a64d23-2379-4cf5-a845-3a265d4bfd90")
+		(property "Sheetname" "power"
+			(at 120.65 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 120.65 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "led_matrix"
+				(path "/d5774a43-362b-468f-ac2a-6162669f6089"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
