@@ -5,6 +5,36 @@
 	(uuid "d5774a43-362b-468f-ac2a-6162669f6089")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 91.44 72.39) (xy 184.15 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19af859e-3950-4180-9fc1-69e0a196693e")
+	)
+	(wire
+		(pts
+			(xy 91.44 78.74) (xy 91.44 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab1e876d-586f-4142-b40e-0c0e431c2eb3")
+	)
+	(wire
+		(pts
+			(xy 184.15 72.39) (xy 184.15 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d10ef8-4904-4465-8e6f-174849734210")
+	)
 	(sheet
 		(at 166.37 78.74)
 		(size 35.56 27.94)
@@ -40,13 +70,13 @@
 			)
 		)
 		(pin "D1_DI" input
-			(at 166.37 91.44 180)
+			(at 184.15 78.74 90)
 			(uuid "254f0a35-2419-47fc-a292-9c7d0fafb66d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "D256_DO" output
@@ -101,6 +131,36 @@
 				(justify left top)
 			)
 		)
+		(pin "USB_D+" bidirectional
+			(at 109.22 92.71 0)
+			(uuid "a2721d0b-a51a-4d20-a369-6984aa497580")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 109.22 95.25 0)
+			(uuid "14fd6019-e657-46b0-936f-3e0e13129d3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_DI" output
+			(at 91.44 78.74 90)
+			(uuid "c5814a25-7198-4c8f-b0e6-41f6ec429291")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "led_matrix"
 				(path "/d5774a43-362b-468f-ac2a-6162669f6089"
@@ -141,6 +201,66 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CFG1" input
+			(at 120.65 83.82 180)
+			(uuid "1b15c595-219e-4d53-b97d-997ab539262f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CFG2" input
+			(at 120.65 86.36 180)
+			(uuid "860a7928-4dfa-49b7-a954-bf900fa18b19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CFG3" input
+			(at 120.65 88.9 180)
+			(uuid "16566c7d-a345-489b-bf29-0c38f7f2b0cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DN" bidirectional
+			(at 120.65 92.71 180)
+			(uuid "ca1e48c8-26ec-4b56-b48c-41e464fb277e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DP" bidirectional
+			(at 120.65 95.25 180)
+			(uuid "dc307e68-0aee-4d1b-93ba-3ed161cbf472")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PG" output
+			(at 120.65 81.28 180)
+			(uuid "0abc5b02-4a3c-4713-b63a-805d56a1fbfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
