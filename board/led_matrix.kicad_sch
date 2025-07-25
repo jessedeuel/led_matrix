@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 109.22 99.06) (xy 120.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "071bfa64-cc6b-4eb4-bed9-12662ca9bd6d")
+	)
+	(wire
+		(pts
 			(xy 91.44 72.39) (xy 184.15 72.39)
 		)
 		(stroke
@@ -14,6 +24,46 @@
 			(type default)
 		)
 		(uuid "19af859e-3950-4180-9fc1-69e0a196693e")
+	)
+	(wire
+		(pts
+			(xy 109.22 101.6) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37aff53c-f8bf-4f2d-9b0c-65be3e477aed")
+	)
+	(wire
+		(pts
+			(xy 109.22 95.25) (xy 120.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b1e19b-06d3-42a4-a530-e35481f76e55")
+	)
+	(wire
+		(pts
+			(xy 109.22 85.09) (xy 120.65 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8234c0de-c5ec-4995-9397-f5bdaebd1ecd")
+	)
+	(wire
+		(pts
+			(xy 109.22 90.17) (xy 120.65 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eabafc7-58a1-4ced-b963-4b63ca65d1e1")
 	)
 	(wire
 		(pts
@@ -34,6 +84,16 @@
 			(type default)
 		)
 		(uuid "c4d10ef8-4904-4465-8e6f-174849734210")
+	)
+	(wire
+		(pts
+			(xy 109.22 92.71) (xy 120.65 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf45b643-f6b8-4f82-b771-e4c111487ff6")
 	)
 	(sheet
 		(at 166.37 78.74)
@@ -132,7 +192,7 @@
 			)
 		)
 		(pin "USB_D+" bidirectional
-			(at 109.22 92.71 0)
+			(at 109.22 101.6 0)
 			(uuid "a2721d0b-a51a-4d20-a369-6984aa497580")
 			(effects
 				(font
@@ -142,7 +202,7 @@
 			)
 		)
 		(pin "USB_D-" bidirectional
-			(at 109.22 95.25 0)
+			(at 109.22 99.06 0)
 			(uuid "14fd6019-e657-46b0-936f-3e0e13129d3c")
 			(effects
 				(font
@@ -154,6 +214,46 @@
 		(pin "LED_DI" output
 			(at 91.44 78.74 90)
 			(uuid "c5814a25-7198-4c8f-b0e6-41f6ec429291")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CFG1" output
+			(at 109.22 90.17 0)
+			(uuid "370c41a0-c3b0-461d-949a-c9e4b601310d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CFG2" output
+			(at 109.22 92.71 0)
+			(uuid "df509a97-57da-4caa-ab7b-49018065676b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CFG3" output
+			(at 109.22 95.25 0)
+			(uuid "fb3d5764-0d85-480d-a598-98399096385a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "POWER_GOOD" input
+			(at 109.22 85.09 0)
+			(uuid "8973bfa1-2a89-4778-909b-34e1410f02b3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -204,7 +304,7 @@
 			)
 		)
 		(pin "CFG1" input
-			(at 120.65 83.82 180)
+			(at 120.65 90.17 180)
 			(uuid "1b15c595-219e-4d53-b97d-997ab539262f")
 			(effects
 				(font
@@ -214,7 +314,7 @@
 			)
 		)
 		(pin "CFG2" input
-			(at 120.65 86.36 180)
+			(at 120.65 92.71 180)
 			(uuid "860a7928-4dfa-49b7-a954-bf900fa18b19")
 			(effects
 				(font
@@ -224,7 +324,7 @@
 			)
 		)
 		(pin "CFG3" input
-			(at 120.65 88.9 180)
+			(at 120.65 95.25 180)
 			(uuid "16566c7d-a345-489b-bf29-0c38f7f2b0cd")
 			(effects
 				(font
@@ -234,7 +334,7 @@
 			)
 		)
 		(pin "DN" bidirectional
-			(at 120.65 92.71 180)
+			(at 120.65 99.06 180)
 			(uuid "ca1e48c8-26ec-4b56-b48c-41e464fb277e")
 			(effects
 				(font
@@ -244,7 +344,7 @@
 			)
 		)
 		(pin "DP" bidirectional
-			(at 120.65 95.25 180)
+			(at 120.65 101.6 180)
 			(uuid "dc307e68-0aee-4d1b-93ba-3ed161cbf472")
 			(effects
 				(font
@@ -254,7 +354,7 @@
 			)
 		)
 		(pin "PG" output
-			(at 120.65 81.28 180)
+			(at 120.65 85.09 180)
 			(uuid "0abc5b02-4a3c-4713-b63a-805d56a1fbfb")
 			(effects
 				(font

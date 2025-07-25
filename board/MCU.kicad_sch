@@ -2837,7 +2837,7 @@
 		)
 		(uuid "ae25bb78-89e8-4173-ad80-35e8bc4cf8be")
 	)
-	(text "Pin Capacitance: 2pF\nApprox trace capacitance: 1pF\nAdjust cap values after layout."
+	(text "Pin Capacitance: 2pF\nApprox trace capacitance: 1pF\nAdjust cap values after layout.\n\nCL = 12.5 pf\nC = 2 * CL = 25 pF\n25 pF = 22pF + 2pF + 1pF"
 		(exclude_from_sim no)
 		(at 108.712 157.226 0)
 		(effects
@@ -5267,6 +5267,17 @@
 		)
 		(uuid "a0dbc759-496b-435e-80e8-012198276aa2")
 	)
+	(hierarchical_label "POWER_GOOD"
+		(shape input)
+		(at 86.36 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9cb2a09-d717-4a39-86a5-101043b947a4")
+	)
 	(hierarchical_label "CFG3"
 		(shape output)
 		(at 86.36 93.98 180)
@@ -5385,7 +5396,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "19pF"
+		(property "Value" "22pF"
 			(at 81.28 158.7499 0)
 			(effects
 				(font
@@ -5394,7 +5405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 78.4352 161.29 0)
 			(effects
 				(font
@@ -5413,6 +5424,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 77.47 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C1555"
 			(at 77.47 157.48 0)
 			(effects
 				(font
@@ -5582,7 +5602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 263.398 115.57 90)
 			(effects
 				(font
@@ -5601,6 +5621,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 261.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C4177"
 			(at 261.62 115.57 0)
 			(effects
 				(font
@@ -5782,7 +5811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 263.398 102.87 90)
 			(effects
 				(font
@@ -5801,6 +5830,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 261.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C22790"
 			(at 261.62 102.87 0)
 			(effects
 				(font
@@ -5922,7 +5960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 229.5652 119.38 0)
 			(effects
 				(font
@@ -5941,6 +5979,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 228.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C52923"
 			(at 228.6 115.57 0)
 			(effects
 				(font
@@ -5983,7 +6030,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "19pF"
+		(property "Value" "22pF"
 			(at 99.06 158.7499 0)
 			(effects
 				(font
@@ -5992,7 +6039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 96.2152 161.29 0)
 			(effects
 				(font
@@ -6011,6 +6058,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 95.25 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C1555"
 			(at 95.25 157.48 0)
 			(effects
 				(font
@@ -6062,7 +6118,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 260.35 31.75 0)
 			(effects
 				(font
@@ -6269,7 +6325,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 33.782 116.84 90)
 			(effects
 				(font
@@ -6288,6 +6344,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 35.56 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C25804"
 			(at 35.56 116.84 0)
 			(effects
 				(font
@@ -6405,7 +6470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 63.1952 58.42 0)
 			(effects
 				(font
@@ -6424,6 +6489,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C307331"
 			(at 62.23 54.61 0)
 			(effects
 				(font
@@ -6541,7 +6615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 51.7652 58.42 0)
 			(effects
 				(font
@@ -6560,6 +6634,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C52923"
 			(at 50.8 54.61 0)
 			(effects
 				(font
@@ -6676,7 +6759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 69.088 93.98 90)
 			(effects
 				(font
@@ -6695,6 +6778,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 67.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C25804"
 			(at 67.31 93.98 0)
 			(effects
 				(font
@@ -7194,7 +7286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 33.782 99.06 90)
 			(effects
 				(font
@@ -7213,6 +7305,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C25804"
 			(at 35.56 99.06 0)
 			(effects
 				(font
@@ -7330,7 +7431,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 213.36 31.75 0)
 			(effects
 				(font
@@ -7602,7 +7703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 230.378 102.87 90)
 			(effects
 				(font
@@ -7621,6 +7722,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 228.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C25804"
 			(at 228.6 102.87 0)
 			(effects
 				(font
