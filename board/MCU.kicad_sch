@@ -5545,7 +5545,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "TS1187A26017"
+		(property "LCSC Part Name" "C22459525"
 			(at 205.74 110.49 0)
 			(effects
 				(font
@@ -5890,7 +5890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 40.3352 58.42 0)
 			(effects
 				(font
@@ -5909,6 +5909,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 39.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "C19702"
 			(at 39.37 54.61 0)
 			(effects
 				(font
@@ -6085,82 +6094,6 @@
 			(project "led_matrix"
 				(path "/d5774a43-362b-468f-ac2a-6162669f6089/934e71f7-5044-4f55-8eed-c70876f5bea8"
 					(reference "C273")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 260.35 31.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "332c0d2d-397c-43bd-85e0-03573c98f32a")
-		(property "Reference" "J2"
-			(at 261.62 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 261.62 31.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 260.35 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 260.35 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 260.35 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5b0345ed-6ef8-4ad7-bef3-9b006e0acfea")
-		)
-		(pin "4"
-			(uuid "67c64739-3501-4e41-b2f3-e6d27b65ef0c")
-		)
-		(pin "1"
-			(uuid "5db29c28-1598-4754-94e0-964e7ecbb870")
-		)
-		(pin "2"
-			(uuid "241688a8-b308-425f-954a-a9dd40354e81")
-		)
-		(instances
-			(project "led_matrix"
-				(path "/d5774a43-362b-468f-ac2a-6162669f6089/934e71f7-5044-4f55-8eed-c70876f5bea8"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6935,6 +6868,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Name" "C18203134"
+			(at 111.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "e440d61c-8179-409d-ba88-796554a5188b")
 		)
@@ -7431,7 +7373,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 213.36 31.75 0)
 			(effects
 				(font
@@ -7450,6 +7392,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 213.36 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0878980426"
 			(at 213.36 31.75 0)
 			(effects
 				(font
@@ -7605,6 +7556,91 @@
 			(project "led_matrix"
 				(path "/d5774a43-362b-468f-ac2a-6162669f6089/934e71f7-5044-4f55-8eed-c70876f5bea8"
 					(reference "#PWR01050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 260.35 31.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b494237f-2e3b-4de7-a421-6822f266dcfb")
+		(property "Reference" "J2"
+			(at 261.62 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 261.62 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
+			(at 260.35 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 260.35 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0878980426"
+			(at 260.35 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "514a302f-56d8-44c1-85d8-fae2a7d4e44d")
+		)
+		(pin "4"
+			(uuid "8dc082fe-92a1-41fd-8324-f0c79993c12f")
+		)
+		(pin "1"
+			(uuid "ffaf09a1-43b0-4318-bda0-bd71160f07c9")
+		)
+		(pin "2"
+			(uuid "8daebc86-3a5f-4c7f-bdb0-e656ec61dd5d")
+		)
+		(instances
+			(project "led_matrix"
+				(path "/d5774a43-362b-468f-ac2a-6162669f6089/934e71f7-5044-4f55-8eed-c70876f5bea8"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7843,7 +7879,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "32.768kHz ±20ppm 12.5pF"
+		(property "LCSC Part Name" "C6554955"
 			(at 86.36 148.59 0)
 			(effects
 				(font
@@ -8153,7 +8189,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Name" "SN74LVC1T45DBVR"
+		(property "LCSC Part Name" "C7843"
 			(at 231.14 66.04 0)
 			(effects
 				(font
