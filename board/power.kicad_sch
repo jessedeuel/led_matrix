@@ -268,7 +268,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "led_matrix:10SVP560M"
+		(symbol "led_matrix:293D337X9010E2TE3"
 			(pin_names
 				(offset 0.254)
 			)
@@ -283,7 +283,7 @@
 					)
 				)
 			)
-			(property "Value" "560uF"
+			(property "Value" "330uF"
 				(at 3.81 -3.81 0)
 				(effects
 					(font
@@ -291,7 +291,7 @@
 					)
 				)
 			)
-			(property "Footprint" "led_matrix:PCAP_SVP_F12_PAN-L"
+			(property "Footprint" "led_matrix:CAP_293D_E_VIS-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -301,7 +301,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "10SVP560M"
+			(property "Datasheet" "https://www.vishay.com/doc?40002"
 				(at 0 0 0)
 				(effects
 					(font
@@ -320,7 +320,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "10SVP560M"
+			(property "MPN" "293D337X9010E2TE3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -329,7 +329,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "10SVP560M"
+			(property "ki_keywords" "293D337X9010E2TE3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -338,7 +338,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "PCAP_SVP_F12_PAN PCAP_SVP_F12_PAN-M PCAP_SVP_F12_PAN-L"
+			(property "ki_fp_filters" "CAP_293D_E_VIS CAP_293D_E_VIS-M CAP_293D_E_VIS-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -347,31 +347,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "10SVP560M_1_1"
-				(polyline
-					(pts
-						(xy 1.5748 1.27) (xy 2.8448 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.2098 0.635) (xy 2.2098 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "293D337X9010E2TE3_1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 3.4798 0)
@@ -408,12 +384,12 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 4.7541 -1.9108)
-					(mid 4.1148 0)
-					(end 4.7541 1.9108)
+				(polyline
+					(pts
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+					)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
@@ -457,10 +433,22 @@
 					)
 				)
 			)
-			(symbol "10SVP560M_1_2"
+			(symbol "293D337X9010E2TE3_1_2"
 				(polyline
 					(pts
 						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
 					)
 					(stroke
 						(width 0.2032)
@@ -494,42 +482,6 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -1.9108 -4.7541)
-					(mid 0 -4.1148)
-					(end 1.9108 -4.7541)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -2.2098) (xy 1.905 -2.2098)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.5748) (xy 1.27 -2.8448)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin unspecified line
 					(at 0 0 270)
 					(length 2.54)
@@ -540,7 +492,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -558,7 +510,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1288,307 +1240,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "led_matrix:EEE-FC1A102P"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 3.81 3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "1mF"
-				(at 3.81 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "led_matrix:CAP_EEFC_G_PAN-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "EEE-FC1A102P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "EEE-FC1A102P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "EEE-FC1A102P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CAP_EEFC_G_PAN CAP_EEFC_G_PAN-M CAP_EEFC_G_PAN-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "EEE-FC1A102P_1_1"
-				(polyline
-					(pts
-						(xy 1.5748 1.27) (xy 2.8448 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.2098 0.635) (xy 2.2098 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.4798 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.4798 -1.905) (xy 3.4798 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.1148 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 4.7541 -1.9108)
-					(mid 4.1148 0)
-					(end 4.7541 1.9108)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "EEE-FC1A102P_1_2"
-				(polyline
-					(pts
-						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.1148) (xy 0 -5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.9108 -4.7541)
-					(mid 0 -4.1148)
-					(end 1.9108 -4.7541)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -2.2098) (xy 1.905 -2.2098)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.5748) (xy 1.27 -2.8448)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3954,6 +3605,12 @@
 		(uuid "adfab0e4-0685-49b9-ba09-9cebe6e34991")
 	)
 	(junction
+		(at 273.05 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aff4e581-dbe1-475e-a63e-5a467791c40a")
+	)
+	(junction
 		(at 55.88 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4030,6 +3687,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1b1ab81-85ff-4b4f-92fa-2bbb38cc45bd")
+	)
+	(junction
+		(at 259.08 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f57032ce-c87a-4568-b241-600ecf43587d")
 	)
 	(junction
 		(at 161.29 77.47)
@@ -4873,6 +4536,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 127) (xy 259.08 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57059b39-108b-43cb-9212-adece3a84448")
+	)
+	(wire
+		(pts
 			(xy 115.57 171.45) (xy 124.46 171.45)
 		)
 		(stroke
@@ -5623,6 +5296,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 149.86) (xy 273.05 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b532287b-8282-40d2-9d59-2a44b2f228de")
+	)
+	(wire
+		(pts
 			(xy 200.66 129.54) (xy 200.66 127)
 		)
 		(stroke
@@ -5823,7 +5506,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 166.37) (xy 288.29 166.37)
+			(xy 259.08 166.37) (xy 273.05 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5923,6 +5606,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 142.24) (xy 273.05 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbe44b3-2dc0-4469-ae5e-83f37dbea264")
+	)
+	(wire
+		(pts
 			(xy 110.49 127) (xy 171.45 127)
 		)
 		(stroke
@@ -5980,6 +5673,16 @@
 			(type default)
 		)
 		(uuid "f143fcc3-80f9-4820-bd44-42a6768f31d3")
+	)
+	(wire
+		(pts
+			(xy 273.05 166.37) (xy 288.29 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f528708f-38c7-44a4-9998-0d81f8dc2130")
 	)
 	(wire
 		(pts
@@ -7260,87 +6963,6 @@
 		)
 	)
 	(symbol
-		(lib_id "led_matrix:EEE-FC1A102P")
-		(at 233.68 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24a710e2-ccd8-4210-87c5-0755c3e750a8")
-		(property "Reference" "C270"
-			(at 237.49 145.2625 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1mF"
-			(at 237.49 147.8025 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "led_matrix:CAP_EEFC_G_PAN-L"
-			(at 233.68 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "EEE-FC1A102P"
-			(at 233.68 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "EEE-FC1A102P"
-			(at 233.68 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2134525-f678-4f44-a4f0-6540da48c600")
-		)
-		(pin "2"
-			(uuid "8c7ec7fc-46b4-482b-95d2-2cd963e485a0")
-		)
-		(instances
-			(project ""
-				(path "/d5774a43-362b-468f-ac2a-6162669f6089/b6a64d23-2379-4cf5-a845-3a265d4bfd90"
-					(reference "C270")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 246.38 58.42 270)
 		(unit 1)
@@ -7657,6 +7279,85 @@
 			(project "led_matrix"
 				(path "/d5774a43-362b-468f-ac2a-6162669f6089/b6a64d23-2379-4cf5-a845-3a265d4bfd90"
 					(reference "C265")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 246.38 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "324d3ade-f26b-43ef-8567-9487862c1f76")
+		(property "Reference" "C271"
+			(at 250.19 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF"
+			(at 250.19 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 247.3452 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 246.38 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31CR60J227ME11L"
+			(at 246.38 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfe0db4d-f710-4f5d-bb36-5fdd7bf48656")
+		)
+		(pin "2"
+			(uuid "37c57df8-c8ca-424d-9472-1ba4cf3316c1")
+		)
+		(instances
+			(project "led_matrix"
+				(path "/d5774a43-362b-468f-ac2a-6162669f6089/b6a64d23-2379-4cf5-a845-3a265d4bfd90"
+					(reference "C271")
 					(unit 1)
 				)
 			)
@@ -8473,6 +8174,87 @@
 		)
 	)
 	(symbol
+		(lib_id "led_matrix:293D337X9010E2TE3")
+		(at 259.08 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f95bb6f-531d-41af-b2a3-419f0b439a30")
+		(property "Reference" "C277"
+			(at 262.89 144.7799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330uF"
+			(at 262.89 147.3199 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "led_matrix:CAP_293D_E_VIS-L"
+			(at 259.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?40002"
+			(at 259.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "293D337X9010E2TE3"
+			(at 259.08 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "272f2c76-aeec-418b-a33f-cb1b7578365d")
+		)
+		(pin "2"
+			(uuid "4bb82b6c-d32a-4346-957a-45ac73090f62")
+		)
+		(instances
+			(project ""
+				(path "/d5774a43-362b-468f-ac2a-6162669f6089/b6a64d23-2379-4cf5-a845-3a265d4bfd90"
+					(reference "C277")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "led_matrix:AMS1117-3.3")
 		(at 95.25 243.84 270)
 		(unit 1)
@@ -8944,87 +8726,6 @@
 		)
 	)
 	(symbol
-		(lib_id "led_matrix:EEE-FC1A102P")
-		(at 246.38 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69eb1a28-fa6a-4f59-b568-145236d3404f")
-		(property "Reference" "C271"
-			(at 250.19 145.2625 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1mF"
-			(at 250.19 147.8025 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "led_matrix:CAP_EEFC_G_PAN-L"
-			(at 246.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "EEE-FC1A102P"
-			(at 246.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "EEE-FC1A102P"
-			(at 246.38 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fe4e3b4-a14b-4ee5-bbee-f6406604d49b")
-		)
-		(pin "2"
-			(uuid "09e814fa-3510-4ad2-944a-df6f5723f5e2")
-		)
-		(instances
-			(project "led_matrix"
-				(path "/d5774a43-362b-468f-ac2a-6162669f6089/b6a64d23-2379-4cf5-a845-3a265d4bfd90"
-					(reference "C271")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 222.25 46.99 0)
 		(unit 1)
@@ -9254,87 +8955,6 @@
 			(project ""
 				(path "/d5774a43-362b-468f-ac2a-6162669f6089/b6a64d23-2379-4cf5-a845-3a265d4bfd90"
 					(reference "USB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "led_matrix:10SVP560M")
-		(at 259.08 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "784de2fd-c78c-4e30-ac36-a210d4e6c2dd")
-		(property "Reference" "C277"
-			(at 262.89 145.2625 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "560uF"
-			(at 262.89 147.8025 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "led_matrix:PCAP_SVP_F12_PAN-L"
-			(at 259.08 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "10SVP560M"
-			(at 259.08 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "10SVP560M"
-			(at 259.08 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53cd1f12-4334-4243-b7f9-84c70553bb20")
-		)
-		(pin "2"
-			(uuid "2404bd32-880a-4040-ae84-5b777e55f6fe")
-		)
-		(instances
-			(project ""
-				(path "/d5774a43-362b-468f-ac2a-6162669f6089/b6a64d23-2379-4cf5-a845-3a265d4bfd90"
-					(reference "C277")
 					(unit 1)
 				)
 			)
@@ -10624,6 +10244,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 233.68 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9a27ea7-a8e4-45c4-bab0-acf8c7bff940")
+		(property "Reference" "C270"
+			(at 237.49 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF"
+			(at 237.49 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 234.6452 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 233.68 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM31CR60J227ME11L"
+			(at 233.68 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6eca482f-c854-4127-844a-ad57e243b500")
+		)
+		(pin "2"
+			(uuid "49deed4f-d297-4ea1-b363-df78f4d7e210")
+		)
+		(instances
+			(project ""
+				(path "/d5774a43-362b-468f-ac2a-6162669f6089/b6a64d23-2379-4cf5-a845-3a265d4bfd90"
+					(reference "C270")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 220.98 227.33 0)
 		(unit 1)
@@ -11050,6 +10749,87 @@
 			(project "led_matrix"
 				(path "/d5774a43-362b-468f-ac2a-6162669f6089/b6a64d23-2379-4cf5-a845-3a265d4bfd90"
 					(reference "C275")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "led_matrix:293D337X9010E2TE3")
+		(at 273.05 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df9940b2-b558-47d8-aeca-9ec3aa693c0c")
+		(property "Reference" "C278"
+			(at 276.86 144.7799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330uF"
+			(at 276.86 147.3199 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "led_matrix:CAP_293D_E_VIS-L"
+			(at 273.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?40002"
+			(at 273.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "293D337X9010E2TE3"
+			(at 273.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0df9cb56-9ef5-4799-b5f7-9a479600f14e")
+		)
+		(pin "2"
+			(uuid "4a24575d-c40d-4b62-b529-93635707b52a")
+		)
+		(instances
+			(project "led_matrix"
+				(path "/d5774a43-362b-468f-ac2a-6162669f6089/b6a64d23-2379-4cf5-a845-3a265d4bfd90"
+					(reference "C278")
 					(unit 1)
 				)
 			)
