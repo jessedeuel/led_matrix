@@ -4964,16 +4964,6 @@
 		)
 		(uuid "326618a0-35d0-4c56-b65f-2929e7c3566d")
 	)
-	(label "IO_27"
-		(at 86.36 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36b4b2ba-1ded-4cf9-b775-bc8c6a96e5f1")
-	)
 	(label "IO_12"
 		(at 86.36 83.82 0)
 		(effects
@@ -5133,16 +5123,6 @@
 			(justify left bottom)
 		)
 		(uuid "b6c8d5ab-24d3-4289-ad5c-878f0ba61189")
-	)
-	(label "IO_26"
-		(at 86.36 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c950b219-05e7-4282-8c6b-0edc19294bb6")
 	)
 	(label "IO_4"
 		(at 194.31 31.75 0)

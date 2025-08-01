@@ -5804,7 +5804,7 @@
 		)
 		(uuid "00ceb1df-a3a2-455e-a52a-0720dae7e41c")
 	)
-	(label "DP"
+	(label "D_P"
 		(at 114.3 58.42 180)
 		(effects
 			(font
@@ -5814,7 +5814,7 @@
 		)
 		(uuid "411538b8-17e7-4842-a409-5c89edba1dd1")
 	)
-	(label "DN"
+	(label "D_N"
 		(at 114.3 55.88 180)
 		(effects
 			(font
@@ -5834,7 +5834,7 @@
 		)
 		(uuid "6ced3df8-a652-4bd5-b4fa-e8c9af47ca5f")
 	)
-	(label "DN"
+	(label "D_N"
 		(at 227.33 67.31 180)
 		(effects
 			(font
@@ -5844,7 +5844,7 @@
 		)
 		(uuid "6dd4ab4a-407d-469a-9121-572bb34ebce5")
 	)
-	(label "DP"
+	(label "D_P"
 		(at 227.33 64.77 180)
 		(effects
 			(font
@@ -5885,7 +5885,7 @@
 		)
 		(uuid "31204952-248a-485d-9b99-eb53cb31e7f3")
 	)
-	(hierarchical_label "DP"
+	(hierarchical_label "D_P"
 		(shape bidirectional)
 		(at 114.3 58.42 0)
 		(effects
@@ -5907,7 +5907,7 @@
 		)
 		(uuid "8fde23dc-6238-450d-9325-ee7b23ac8bfd")
 	)
-	(hierarchical_label "DN"
+	(hierarchical_label "D_N"
 		(shape bidirectional)
 		(at 114.3 55.88 0)
 		(effects

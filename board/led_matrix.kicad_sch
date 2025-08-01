@@ -333,29 +333,29 @@
 				(justify left)
 			)
 		)
-		(pin "DN" bidirectional
-			(at 120.65 99.06 180)
-			(uuid "ca1e48c8-26ec-4b56-b48c-41e464fb277e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "DP" bidirectional
-			(at 120.65 101.6 180)
-			(uuid "dc307e68-0aee-4d1b-93ba-3ed161cbf472")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PG" output
 			(at 120.65 85.09 180)
 			(uuid "0abc5b02-4a3c-4713-b63a-805d56a1fbfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D_N" bidirectional
+			(at 120.65 99.06 180)
+			(uuid "055da2e6-c841-4d88-8d9d-956bfed3434d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D_P" bidirectional
+			(at 120.65 101.6 180)
+			(uuid "23ee19ef-99f1-4536-9ec5-4be579a9a52d")
 			(effects
 				(font
 					(size 1.27 1.27)
