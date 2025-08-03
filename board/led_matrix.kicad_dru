@@ -1,0 +1,5 @@
+(version 1)
+
+(rule holes_in_pads
+        (constraint mechanical_hole_clearance (min 0.0mm))
+        (condition "B.Pad_Type == 'SMD'"))
