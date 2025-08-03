@@ -5225,6 +5225,17 @@
 		)
 		(uuid "06212c9c-fa9e-4a8f-b4ac-499ff8009e48")
 	)
+	(hierarchical_label "POWER_GOOD"
+		(shape input)
+		(at 86.36 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "583f03a1-d778-404d-967c-4ffefede8ea7")
+	)
 	(hierarchical_label "CFG1"
 		(shape output)
 		(at 86.36 88.9 180)
@@ -5246,17 +5257,6 @@
 			(justify right)
 		)
 		(uuid "a0dbc759-496b-435e-80e8-012198276aa2")
-	)
-	(hierarchical_label "POWER_GOOD"
-		(shape input)
-		(at 86.36 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a9cb2a09-d717-4a39-86a5-101043b947a4")
 	)
 	(hierarchical_label "CFG3"
 		(shape output)
