@@ -5225,6 +5225,17 @@
 		)
 		(uuid "06212c9c-fa9e-4a8f-b4ac-499ff8009e48")
 	)
+	(hierarchical_label "CFG1"
+		(shape output)
+		(at 86.36 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e08ca61-dbe7-491b-be32-5e4a98a764a1")
+	)
 	(hierarchical_label "POWER_GOOD"
 		(shape input)
 		(at 86.36 73.66 180)
@@ -5236,16 +5247,16 @@
 		)
 		(uuid "583f03a1-d778-404d-967c-4ffefede8ea7")
 	)
-	(hierarchical_label "CFG1"
+	(hierarchical_label "CFG2"
 		(shape output)
-		(at 86.36 88.9 180)
+		(at 86.36 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "870ea8a0-8f9b-4681-b1cd-9d4023cc5d69")
+		(uuid "61e1cd80-5915-4895-a409-c1c8f35f7011")
 	)
 	(hierarchical_label "USB_D-"
 		(shape bidirectional)
@@ -5258,17 +5269,6 @@
 		)
 		(uuid "a0dbc759-496b-435e-80e8-012198276aa2")
 	)
-	(hierarchical_label "CFG3"
-		(shape output)
-		(at 86.36 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b0dc7608-6336-4145-af61-0c174d195952")
-	)
 	(hierarchical_label "USB_D+"
 		(shape bidirectional)
 		(at 30.48 111.76 180)
@@ -5280,16 +5280,16 @@
 		)
 		(uuid "ca1e1556-8de8-48e9-b743-120cab08115e")
 	)
-	(hierarchical_label "CFG2"
+	(hierarchical_label "CFG3"
 		(shape output)
-		(at 86.36 91.44 180)
+		(at 86.36 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "d052838e-c77d-4877-a7f1-39c7cc63021c")
+		(uuid "dbb45232-fccc-42f4-9a4a-5543f45bbbeb")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5582,7 +5582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 263.398 115.57 90)
 			(effects
 				(font
@@ -5791,7 +5791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 263.398 102.87 90)
 			(effects
 				(font
