@@ -25,22 +25,22 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: Schematic
-        path: ./board/schematic.pdf
+        path: ./schematic.pdf
 
     - name: Upload BOM
       uses: actions/upload-artifact@v4
       with:
         name: BOM
-        path: ./board/bom.csv
+        path: ./bom.csv
 
     - name: Upload gerbers and drill file
       uses: actions/upload-artifact@v4
       with:
         name: Gerbers
-        path: ./board/gerbers
+        path: ./gerbers
 
     - name: Upload image render
       uses: actions/upload-artifact@v4
       with:
         name: Image render
-        path: ./board/pcb.png
+        path: ./pcb.png
