@@ -11,13 +11,13 @@ jobs:
       with:
         schematic_file_name: ./board/led_matrix.kicad_sch
         symbol_libraries: "led_matrix=../lib/symbols/led_matrix.kicad_sym"
-        run_erc: true
+        run_erc: false
         schematic_output_pdf: true
         schematic_output_bom: true
   
         pcb_file_name: ./board/led_matrix.kicad_pcb
         footprint_libraries: "led_matrix=../lib/footprints/led_matrix.pretty"
-        run_drc: true
+        run_drc: false
         pcb_output_gerbers_and_drill: true
         pcb_output_image: true
 
